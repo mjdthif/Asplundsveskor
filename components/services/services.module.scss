@@ -21,10 +21,9 @@
         align-items:center;
         grid-gap:15px;
         padding: 0rem 1rem;
-        @media screen and (max-width:700px){
+        @media screen and (max-width:1000px){
             grid-template-columns:1fr;
         }
-
 }
 
 ///======================= Card styling====================
@@ -55,6 +54,9 @@
 // }
 .imageCard{
     border-radius: 0.5rem;
+    @media screen and (max-width:1000px){
+      width:auto;
+  }
 }
 
 .flipCard {
@@ -62,6 +64,10 @@
     margin: 0.4rem;
     width: 200px;
     height: 200px;
+    @media screen and (max-width:1000px){
+      width:150px;
+      height: 150px;
+  }
 }
   
   /* This container is needed to position the front and back side */
