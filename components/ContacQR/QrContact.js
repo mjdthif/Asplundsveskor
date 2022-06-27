@@ -16,6 +16,7 @@ const QrContact = () => {
                         width="100px"
                         height='100px'
                         src='/Assests/asplundLogo.webp'/>
+                        alt="Asplund fix your travel bag"
                       </span>
                     </Link>
               

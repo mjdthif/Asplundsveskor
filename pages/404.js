@@ -1,10 +1,11 @@
+import Link from "next/link";
 
 
 const NotFound = () => {
   return (
     <div>
         This Page is not found!
-        <a href="/"> Take me home</a>
+        <Link href="/"> Take me home</Link>
     </div>
   )
 }
