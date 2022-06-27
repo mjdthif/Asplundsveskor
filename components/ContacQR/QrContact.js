@@ -15,8 +15,10 @@ const QrContact = () => {
                         <Image 
                         width="100px"
                         height='100px'
-                        src='/Assests/asplundLogo.webp'/>
-                        alt="Asplund fix your travel bag"
+                        src='/Assests/asplundLogo.webp'
+                        alt= "Asplund fix your travel bag"
+                        />
+                       
                       </span>
                     </Link>
               

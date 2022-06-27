@@ -1,4 +1,6 @@
+
 import { useState } from 'react';
+import Image from 'next/image';
 import reviewStyle from '../../styles/review.module.scss';
 import  { AiOutlineArrowUp, AiOutlineArrowDown }  from 'react-icons/ai';
 
@@ -38,7 +40,7 @@ const Review = ({slideObj}) => {
       <div className={reviewStyle.col1}>
       <div className={reviewStyle.imgContainer}>
 
-       <a href={imgLink} target='_blank' rel="noopener"> <img src={cardIcon} className={reviewStyle.personImg}/></a> 
+       <a href={imgLink} target='_blank' rel="noreferrer" > <Image width='100px' height='100px' src={cardIcon} className={reviewStyle.personImg}/></a> 
       </div>
       </div>
       <div className={reviewStyle.col2}>

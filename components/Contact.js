@@ -6,7 +6,7 @@ const QrSocialMedia = () => {
 
   return (
     <div className={QrCardStyle.container}>
-        <a href='/'>AsplundsVäskor</a>
+        <Link href='/'>AsplundsVäskor</Link>
         <a href='mailto:info@asplundsvaskor.se' target="_blank" rel="noopener"><MdOutlineMailOutline/> Email</a>
         <a href="tel:086532930" target="_blank" rel="noopener"><MdCall/>Phone</a>
         <a href="" target='_blank' rel="noopener"> <BsInstagram/> Instagram</a>

@@ -1,4 +1,4 @@
-
+import Image from 'next/image';
 import headerStyle from './header.module.scss';
 
 
@@ -19,7 +19,7 @@ const Header = () => {
                     <h1> Take off  </h1>
                     <h1>  Done in a day </h1>
                     <h1> Cuddle the </h1>
-                    <img src={'/myQR.png'}/>
+                    <Image src={'/myQR.png'}/>
             </div>      
         </div>
     </div>

@@ -1,4 +1,4 @@
-
+import Image from 'next/image';
 import style from './productsData.module.scss'
 
 
@@ -12,6 +12,7 @@ const ServiCard = ({
                                         <Image src={cardIcon}
                                           widht='500px'
                                           height='500px'
+                                          alt='Asplunds products and services'
                                           className={style.serivcesIcon}
                                         />
                                         <h1> {cardH1}</h1>

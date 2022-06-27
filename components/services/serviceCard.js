@@ -15,6 +15,7 @@ const ServiceCard = ({
                                                 <Image src={cardIcon}
                                                  widht='400px'
                                                   height='400px'
+                                                  alt='Asplunds products and services'
                                                   className={style.imageCard}
                                                             />                                                  
                         </div>
