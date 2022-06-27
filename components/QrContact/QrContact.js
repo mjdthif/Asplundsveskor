@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import QrSocialMedia from '../Contact';
+import QrSocialMedia from './QrSocialMedia';
 import style from './qrContact.module.scss'
 
 

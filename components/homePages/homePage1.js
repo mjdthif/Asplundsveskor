@@ -1,6 +1,6 @@
 
 import Header from '../header/Header';
-import Profile from '../profile/profile.js';
+import Profile from '../profile/profile';
 import style from './homePage1.module.scss';
 
 

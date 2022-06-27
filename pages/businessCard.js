@@ -1,5 +1,5 @@
 
-import QrContact from '../components/contacQR/QrContact.js';
+import QrContact from '../components/QrContact/QrContact.js';
 import HireForm from '../components/HireForm';
 import businessCardStyle from '../styles/businessCard.module.scss'
 
