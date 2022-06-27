@@ -18,10 +18,8 @@ const QrContact = () => {
                         src='/Assests/asplundLogo.webp'
                         alt= "Asplund fix your travel bag"
                         />
-                       
                       </span>
                     </Link>
-              
                     </article>
                   
                   <QrSocialMedia></QrSocialMedia>
