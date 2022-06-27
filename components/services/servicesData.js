@@ -1,8 +1,8 @@
-import svg1 from '../../public/Assests/1.webp';
-import svg2 from '../../public/Assests/1.webp';
-import svg3 from '../../public/Assests/1.webp';
-import svg5 from '../../public/Assests/1.webp';
-import svg4 from '../../public/Assests/1.webp';
+import svg1 from '../../public/Assests/asplunds1.webp';
+import svg2 from '../../public/Assests/asplunds2.webp';
+import svg3 from '../../public/Assests/asplunds3.webp';
+import svg5 from '../../public/Assests/asplunds4.webp';
+import svg4 from '../../public/Assests/asplunds5.webp';
 
 
 

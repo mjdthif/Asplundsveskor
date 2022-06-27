@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import StateProvider from '../pages/useContextFile';
 import Nav from '../components/Nav.js';
-import Sidebar from '../components/SideBar/sidebar.js'
+import Sidebar from './sideBar/sidebar.js'
 import Footer from '../components/Footer.js';
 
 import layoutStyle from '../styles/layout.module.scss';
