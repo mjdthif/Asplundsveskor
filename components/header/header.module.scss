@@ -29,7 +29,7 @@ overflow:hidden;
 }
 .InfoSecContent{
   border-top : 1rem solid rgba(255, 255, 255, 0.782);
-  border-bottom : 1rem solid rgba(69, 44, 2, 0.897);;
+  border-bottom : 1rem solid aquamarine;;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -42,16 +42,21 @@ overflow:hidden;
   display: grid;
   grid-template-columns:100%;
   gap: 2%;
-  img{
-    margin: auto;
-    height: 140px;
-    width: 140px;
-  }
+
   @media screen and (max-width:768px){
     font-size:1rem;
     height: 40vh;
   }
 }
+
+.qrContainer{
+  margin: auto;
+  &:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+  }
+}
+
 .InfoSecContent h1{
   color:white;
   font-size:2rem;
