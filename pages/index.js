@@ -7,20 +7,12 @@ export default function Home() {
   return (
  
   <>
-  
         <Head>
-          <title> Web Deve </title>
-          <meta name='keywords' content='web development'/>
+              <title> Web Deve </title>
+              <meta name='keywords' content='web development'/>
         </Head> 
-
-
-
         <HomePage1/>
-   
         <HomePage2/> 
-
-    
-
   </>
  
   )

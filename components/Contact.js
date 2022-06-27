@@ -2,6 +2,8 @@ import Link from 'next/link';
 import {BsWalletFill,BsLinkedin, BsInstagram,BsBehance, BsGlobe2} from 'react-icons/bs';
 import{MdOutlineMailOutline, MdCall} from 'react-icons/md';
 import QrCardStyle from '../styles/QrCard.module.scss';
+
+
 const QrSocialMedia = () => {
 
   return (
