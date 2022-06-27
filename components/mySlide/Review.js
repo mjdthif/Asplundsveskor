@@ -40,7 +40,7 @@ const Review = ({slideObj}) => {
       <div className={reviewStyle.col1}>
       <div className={reviewStyle.imgContainer}>
 
-       <a href={imgLink} target='_blank' rel="noreferrer" > <Image width='100px' height='100px' src={cardIcon} className={reviewStyle.personImg}/></a> 
+       <a href={imgLink} target='_blank' rel="noreferrer" > <Image width='100px' height='100px' alt='Asplund Reviwes' src={cardIcon} className={reviewStyle.personImg}/></a> 
       </div>
       </div>
       <div className={reviewStyle.col2}>

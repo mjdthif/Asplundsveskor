@@ -1,4 +1,4 @@
-
+import Image from 'next/image';
 import cardStyle from '../../styles/artCard.module.scss';
 
 
@@ -12,7 +12,7 @@ const ServiCard = ({
   return (
   
                             <div className={cardStyle.wrapper}>
-                                       <a href={imgLink} target="_blank"><img src={cardIcon}/></a> 
+                                       <a href={imgLink} target="_blank" rel="noreferrer" alt='Asplund Products'><Image src={cardIcon}/></a> 
                             </div>
   )
 }

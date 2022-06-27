@@ -19,7 +19,7 @@ const Header = () => {
                     <h1> Take off  </h1>
                     <h1>  Done in a day </h1>
                     <h1> Cuddle the </h1>
-                    <Image src={'/myQR.png'}/>
+                    <Image  alt='QR code' src={'/myQR.png'}/>
             </div>      
         </div>
     </div>
